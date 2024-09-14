@@ -1,3 +1,8 @@
+title: "Rahul's Portfolio"
+description: "A showcase of my projects and skills"
+url: "https://rahulbhandari18.github.io/"
 theme: jekyll-theme-minimal
-title: Rahul's Portfolio
-description: Bookmark this to keep an eye on my project updates!
+# Social Links
+social:
+  github: "https://github.com/RahulBhandari18"
+  linkedin: "https://www.linkedin.com/in/rahulbhandari10/"
