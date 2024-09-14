@@ -5,7 +5,6 @@
   color: #fff;
 }
 
-/* Grid layout for projects */
 /* Project grid layout */
 .project-grid {
   display: grid;
@@ -16,51 +15,69 @@
 
 /* Project card styling */
 .project-card {
-  background-color: #1a1a1a;
-  color: #fff;
-  border-radius: 8px;
+  background-color: #f8f9fa;
+  /* Light background for cards */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .project-card:hover {
-  transform: translateY(-10px);
+  transform: translateY(-5px);
 }
 
 /* Project card image */
 .project-card img {
   width: 100%;
-  height: auto;
+  height: 200px;
+  /* Fixed height */
+  object-fit: cover;
+  border-bottom: 5px solid #ddd;
 }
 
 /* Project card content */
-.project-card h3 {
-  margin: 0;
+.project-info {
   padding: 1em;
-  background-color: #333;
-  text-align: center;
 }
 
-.project-card p {
-  padding: 0 1em;
-  margin: 1em 0;
+.project-info h3 {
+  margin: 0;
+  font-size: 1.2em;
+  color: #333;
 }
 
+.project-info p {
+  margin: 0.5em 0;
+  color: #666;
+}
+
+/* Project card button */
 .project-card .btn {
-  display: inline-block;
+  display: block;
   margin: 1em;
-  padding: 0.5em 1em;
-  background-color: #f39c12;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 5px;
+  padding: 0.5em;
   text-align: center;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
   transition: background-color 0.3s ease;
 }
 
 .project-card .btn:hover {
-  background-color: #e67e22;
+  background-color: #0056b3;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .project-card img {
+    height: 150px;
+    /* Smaller height on mobile */
+  }
 }
 
 .skills span {
@@ -71,6 +88,7 @@
   border-radius: 5px;
   color: #fff;
 }
+
 .navbar {
   background-color: #333;
   padding: 1em;
@@ -98,5 +116,6 @@
 }
 
 .navbar a:hover {
-  color: #f39c12; /* Change to your preferred hover color */
+  color: #f39c12;
+  /* Change to your preferred hover color */
 }
