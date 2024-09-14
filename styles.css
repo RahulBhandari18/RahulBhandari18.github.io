@@ -1,0 +1,26 @@
+.hero {
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 2em 0;
+}
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1em;
+}
+.project-card {
+  background: #222;
+  color: #fff;
+  padding: 1em;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.skills span {
+  background: #444;
+  padding: 0.5em;
+  margin: 0.5em;
+  display: inline-block;
+  border-radius: 5px;
+  color: #fff;
+}
