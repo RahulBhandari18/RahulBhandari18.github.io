@@ -6,3 +6,13 @@ theme: jekyll-theme-minimal
 social:
   github: "https://github.com/RahulBhandari18"
   linkedin: "https://www.linkedin.com/in/rahulbhandari10/"
+
+nav:
+  - title: "Home"
+    url: /
+  - title: "About"
+    url: /about
+  - title: "Projects"
+    url: /projects
+  - title: "Contact"
+    url: /contact
