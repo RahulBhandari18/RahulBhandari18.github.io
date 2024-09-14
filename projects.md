@@ -14,14 +14,26 @@ title: Projects
   </nav>
 </header>
 
-# My Projects
+<h2>My Projects</h2>
 
-## Project 1
-- **Description**: Fashion Clip Model.
-- **Tech Stack**: Python, Flask
-- [View on GitHub](https://github.com/rahulbhandari18/project1)
-
-## Project 2
-- **Description**: Full Database.
-- **Tech Stack**: JavaScript, Node.js
-- [View on GitHub](https://github.com/rahulbhandari18/project2)
+<div class="project-grid">
+  <!-- Project 1 -->
+  <div class="project-card">
+    <img src="assets/images/fashion-app.jpg" alt="Fashion Ecommerce App">
+    <h3>Fashion Ecommerce App</h3>
+    <p>Development &bull; 16 May 2024</p>
+    <p>I built a fashion e-commerce application using React and Node.js, focusing on seamless user experience and modern design principles.</p>
+    <a href="https://github.com/rahulbhandari18/project1" class="btn">View on GitHub</a>
+  </div>
+  
+  <!-- Project 2 -->
+  <div class="project-card">
+    <img src="assets/images/responsive-grid.jpg" alt="Responsive Grid Design">
+    <h3>Creating a Responsive Grid</h3>
+    <p>Product Design &bull; 12 May 2024</p>
+    <p>This project showcases a responsive grid design using CSS Grid and Flexbox for flexible layouts across devices.</p>
+    <a href="https://github.com/rahulbhandari18/project2" class="btn">View on GitHub</a>
+  </div>
+  
+  <!-- Add more projects here -->
+</div>
