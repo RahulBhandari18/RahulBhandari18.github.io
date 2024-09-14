@@ -6,40 +6,61 @@
 }
 
 /* Grid layout for projects */
+/* Project grid layout */
 .project-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 2em;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
   padding: 2em;
 }
 
+/* Project card styling */
 .project-card {
-  background: #333;
+  background-color: #1a1a1a;
   color: #fff;
-  border-radius: 10px;
+  border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  transition: transform 0.3s;
+  transition: transform 0.3s ease;
 }
 
 .project-card:hover {
   transform: translateY(-10px);
 }
 
+/* Project card image */
 .project-card img {
   width: 100%;
   height: auto;
 }
 
+/* Project card content */
 .project-card h3 {
   margin: 0;
   padding: 1em;
-  background-color: #444;
+  background-color: #333;
   text-align: center;
 }
 
 .project-card p {
-  padding: 1em;
+  padding: 0 1em;
+  margin: 1em 0;
+}
+
+.project-card .btn {
+  display: inline-block;
+  margin: 1em;
+  padding: 0.5em 1em;
+  background-color: #f39c12;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.project-card .btn:hover {
+  background-color: #e67e22;
 }
 
 .skills span {
