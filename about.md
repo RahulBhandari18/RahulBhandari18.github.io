@@ -3,6 +3,17 @@ layout: default
 title: My Amazing Projects
 ---
 
+<header>
+  <nav class="navbar">
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/about">About</a></li>
+      <li><a href="/projects">Projects</a></li>
+      <li><a href="/contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
 <div class="hero">
   <h1>Welcome to My Portfolio</h1>
   <p>Explore my work, skills, and experiences</p>
